@@ -2,7 +2,7 @@
   <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/intro2.jpg" />
 </p>
 
-
+# ![](Images/line.png)
 # **CONTENTS**
 
 1. Background
@@ -128,6 +128,7 @@ It can be observed from the above graphs that high percentage of the data is hig
 - Features were then scaled using standard scaling as it enhances the performance of machine learning algorithms such as logistic regression, gradient boosting, random forest etc.
 - ![](Images/br.png) Weighted column was created in order to provide equal importance to each row when modeling, thus handling class imbalance. 
 
+# ![](Images/line.png)
 # **MODELING**
 Four models were developed for the dataset and their AUC was compared for model selection.
 
@@ -140,6 +141,7 @@ Four models were developed for the dataset and their AUC was compared for model 
 
 Analyzing all the AUC score, random forest is selected as the final model. Another reason of selecting random forest is that no variable transformation was required. Any linear model like logistic regression would require variable transformation as the dataset is highly skewed and thus results are unreliable. On the other hand, random forest being a non-linear model, can handle skewed datasets as well as outliers.
 
+# ![](Images/line.png)
 # **RESULT**
 
 Random forest is selected as final model with high AUC score of 0.9446.
@@ -167,6 +169,7 @@ The following results are for the test data. It compares the actual values vs th
   <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/Feature_Imp.png" />
 </p>
 
+# ![](Images/line.png)
 # **K-MEANS**
 
 <p align="center">
@@ -203,7 +206,7 @@ The second highest non-conversion cluster is cluster 2.
 
 These results along with feature importance are used to build prescriptive recomendations.
 
-
+# ![](Images/line.png)
 # **RECOMMENDATION**
 
  ## 1. **Stay In Touch**
@@ -222,3 +225,4 @@ These results along with feature importance are used to build prescriptive recom
 -	The surveys can further be implemented on different age groups to curate  personalized  marketing campaigns
 -	Marketing pitch needs to be updated as per the target audience, with different age groups ,to enhance the engagement duration (cluster 1 and 2). Higher the engagement, higher will be the conversion rate.
 
+# ![](Images/line.png)
