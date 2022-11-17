@@ -1,4 +1,4 @@
-# PYSPARK MINI PROJECT-2
+# ![](Images/intro.jpg)
 
 # **CONTENTS**
 
