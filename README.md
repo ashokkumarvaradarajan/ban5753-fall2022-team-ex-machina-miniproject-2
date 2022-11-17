@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/intro.jpg" />
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/intro2.jpg" />
 </p>
 
 
