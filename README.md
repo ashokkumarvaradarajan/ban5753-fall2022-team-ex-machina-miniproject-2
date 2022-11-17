@@ -100,7 +100,7 @@ XYZ bank ran a marketing campaign driven by phone calls, in order to increase th
 ### **Identifying Null Values**
 No null values were found in the dataset.
 
-![](Images/null_values.png)
+![](Images/null_values.jpg)
 
 ### **Analyzing Multicollinearity**
 
