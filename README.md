@@ -165,4 +165,8 @@ Random forest is selected as final model with high AUC score of 0.9446.
 - These details can be incorporated in newsletters, Ad campaigns etc. to expand the reach.
 
  ## 3. **Targeted Campaigns**
+-	Surveys can be held to analyze the mindset of young age people and their investment ideologies. 
+-	These surveys can be further utilized to curate marketing campaigns that talks in young people’s language and build constant engagement with them. This will result in more conversion rate amongst youth (cluster 1).
+-	The surveys can further be implemented on different age groups to curate  personalized  marketing campaigns
+-	Marketing pitch needs to be updated as per the target audience, with different age groups ,to enhance the engagement duration (cluster 1 and 2). Higher the engagement, higher will be the conversion rate.
 
