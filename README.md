@@ -43,7 +43,6 @@
 
 [**RECOMMENDATION**	](#_Toc119524613)
 
-
 # ![](Images/line.png)
 **BACKGROUND**
 
@@ -150,7 +149,58 @@ Random forest is selected as final model with high AUC score of 0.9446.
 </p>
 
 
+### **Confusion Matrix**
+
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/CM.png" />
+</p>
+
+### **Feature Importance**
+
+- The feature of highest importance came out to be duration before contact with the customers. While the campaign of telephonic, it makes sense, since more is the duration, more are the chances of customer being convinced.
+- The second highest important variables is the number of the employees in the bank. It portrays the standing of the company in the market and hence its reliability. 
+- The important variables were further taken into consideration to build prescriptive recommendation.
+
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/Feature_Imp.png" />
+</p>
+
 # **K-MEANS**
+
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/KMeans-1.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/KMeans-2.png" />
+</p>
+
+- The first graph shows the optimal number of clusters i.e 3.
+- The second graph shows the number of data points present in each cluster. 
+
+
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/KMeans-3.png.jpg" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/KMeans-4.png" />
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/KMeans-5.png" />
+</p>
+
+The highest non-conversion rate is in cluster 1 (Red cluster). 
+- This cluster comprises of young age people.
+- The duration of contact with these people is minimum.
+
+The second highest non-conversion cluster is cluster 2.
+- The non-conversion rate in this cluster is majorly caused due to less duration of contact.
+
+These results along with feature importance are used to build prescriptive recomendations.
+
 
 # **RECOMMENDATION**
 
