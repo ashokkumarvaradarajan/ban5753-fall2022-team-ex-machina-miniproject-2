@@ -139,14 +139,14 @@ Four models were developed for the dataset and their AUC was compared for model 
 |Logistic Regression|0.9420|
 |Decision Tree Classifier|0.8450|
 |Gradient Boosting Classifier|0.9202|
-|Random Forest|0.9446|
+|Random Forest|0.943|
 
 Analyzing all the AUC score, random forest is selected as the final model. Another reason of selecting random forest is that no variable transformation was required. Any linear model like logistic regression would require variable transformation as the dataset is highly skewed and thus results are unreliable. On the other hand, random forest being a non-linear model, can handle skewed datasets as well as outliers.
 
 # ![](Images/line.png)
 # **RESULT**
 
-Random forest is selected as final model with high AUC score of 0.9446.
+Random forest is selected as final model with high AUC score of 0.943.
 
 <p align="center">
   <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/auc.png" />
