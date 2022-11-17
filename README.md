@@ -41,7 +41,8 @@
 [**RECOMMENDATION**	](#_Toc119524613)
 
 
-# ![](Images/line.png)**BACKGROUND**
+# ![](Images/line.png)
+**BACKGROUND**
 
 XYZ bank ran a marketing campaign driven by phone calls, in order to increase the potential clients of term deposits. The campaign ran from May 2008 to November 2010. Data was collected from this campaign to analyze the success of the campaign and to predict, whether the marketed customer will sign up for the for the term deposit or not. Furthermore, exploratory data analysis (EDA), was performed to study the relationships between the data points.
 
