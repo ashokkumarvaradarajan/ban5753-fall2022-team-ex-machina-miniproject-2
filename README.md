@@ -5,46 +5,46 @@
 
 # **CONTENTS**
 
-[**BACKGROUND**	](#_Toc119524595)
+1. Background
 
-[**DATA DICTIONARY**](#_Toc119524596)
+2. Data Dictionary
 
-[**DATA ANALYSIS**](#_Toc119524597)
+3. Data Analysis
 
-[**Process**](#_Toc119524598)
+4. Process
 
-[**Data Observation**](#_Toc119524599)
+5. Data Observation
 
-[**Exploratory Data Analysis**](#_Toc119524600)
+6. Exploratory Data Analysis
 
-[**Identifying Null Values**](#_Toc119524601)
+7. Identifying Null Values
 
-[**Analyzing Multicollinearity**](#_Toc119524602)
+8. Analyzing Multicollinearity
 
-[**Bi-Variate Analysis**](#_Toc119524603)
+9. Bi-Variate Analysis
 
-[**Feature Distribution**](#_Toc119524604)
+10. Feature Distribution
 
-[**Feature Engineering**](#_Toc119524605)
+11. Feature Engineering
 
-[**MODELING**](#_Toc119524606)
+12. MODELING
 
-[**Logistic Regression**](#_Toc119524607)
+13. Logistic Regression
 
-[**Decision Tree Classifier**](#_Toc119524608)
+14. Decision Tree Classifier
 
-[**Gradient Boosting Classifier**](#_Toc119524609)
+15. Gradient Boosting Classifier
 
-[**Random Forest**](#_Toc119524610)
+16. Random Forest
 
-[**RESULT**](#_Toc119524611)
+17. Result
 
-[**K-MEANS**](#_Toc119524612)
+18. K-MEANS Clustering
 
-[**RECOMMENDATION**	](#_Toc119524613)
+19. Recommendations
 
 # ![](Images/line.png)
-**BACKGROUND**
+# **BACKGROUND**
 
 XYZ bank ran a marketing campaign driven by phone calls, in order to increase the potential clients of term deposits. The campaign ran from May 2008 to November 2010. Data was collected from this campaign to analyze the success of the campaign and to predict, whether the marketed customer will sign up for the for the term deposit or not. Furthermore, exploratory data analysis (EDA), was performed to study the relationships between the data points.
 
@@ -126,7 +126,7 @@ It can be observed from the above graphs that high percentage of the data is hig
 - The categorical variables were one-hot encoded, to be used in the model.
 - Vector Assembler was then used to generate features to be used in the model.
 - Features were then scaled using standard scaling as it enhances the performance of machine learning algorithms such as logistic regression, gradient boosting, random forest etc.
-- ![](Images/br.png) Weighted column was created in order to provide equal importance to each row when modeling.
+- ![](Images/br.png) Weighted column was created in order to provide equal importance to each row when modeling, thus handling class imbalance. 
 
 # **MODELING**
 Four models were developed for the dataset and their AUC was compared for model selection.
@@ -150,6 +150,8 @@ Random forest is selected as final model with high AUC score of 0.9446.
 
 
 ### **Confusion Matrix**
+
+The following results are for the test data. It compares the actual values vs the predicted values. We can observe that the non-converted customers are correctly predicted, which is the focus of the analysis, so as to curate personalized marketing campaigns. Thus, the model is reliable.
 
 <p align="center">
   <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/CM.png" />
