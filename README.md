@@ -45,8 +45,8 @@
 
 XYZ bank ran a marketing campaign driven by phone calls, in order to increase the potential clients of term deposits. The campaign ran from May 2008 to November 2010. Data was collected from this campaign to analyze the success of the campaign and to predict, whether the marketed customer will sign up for the for the term deposit or not. Furthermore, exploratory data analysis (EDA), was performed to study the relationships between the data points.
 
-# ![](Images/line.png)**DATA DICTIONARY**
-
+# ![](Images/line.png)
+# **DATA DICTIONARY**
 
 |**Variable Name**|**Description**|**Data Type**|
 | :-: | :-: | :-: |
@@ -73,7 +73,7 @@ XYZ bank ran a marketing campaign driven by phone calls, in order to increase th
 
 ![](Images/line.png)
 
-**DATA ANALYSIS**
+# **DATA ANALYSIS**
 ## **Process**                                                                                                                                       
 
 ![Graphical user interface Description automatically generated](Images/steps.png)
@@ -120,23 +120,24 @@ It can be observed from the above graphs that high percentage of the data is hig
 - The categorical variables were one-hot encoded, to be used in the model.
 - Vector Assembler was then used to generate features to be used in the model.
 - Features were then scaled using standard scaling as it enhances the performance of machine learning algorithms such as logistic regression, gradient boosting, random forest etc.
-- ![](Images/br.png)Weighted column was created to balance the dataset.
+- ![](Images/br.png) Weighted column was created in order to provide equal importance to each row when modeling.
 
 # **MODELING**
 Four models were developed for the dataset and their AUC was compared for model selection.
 
-|<h3>**Model**</h3>|<h3>**AUC Score**</h3>|
+|**Model**|**AUC Score**|
 | :-: | :-: |
-|**Logistic Regression**|0.9420|
-|**Decision Tree Classifier**|0.8450|
-|**Gradient Boosting Classifier**|0.9202|
-|**Random Forest**|0.9446|
+|Logistic Regression|0.9420|
+|Decision Tree Classifier|0.8450|
+|Gradient Boosting Classifier|0.9202|
+|Random Forest|0.9446|
 
 Analyzing all the AUC score, random forest is selected as the final model. Another reason of selecting random forest is that no variable transformation was required. Any linear model like logistic regression would require variable transformation as the dataset is highly skewed and thus results are unreliable. On the other hand, random forest being a non-linear model, can handle skewed datasets as well as outliers.
 
 # **RESULT**
 
 Random forest is selected as final model with high AUC score of 0.9446.
+
 ![](Images/auc.png) 
 
 # **K-MEANS**
