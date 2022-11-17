@@ -155,14 +155,14 @@ Random forest is selected as final model with high AUC score of 0.9446.
 # **RECOMMENDATION**
 
  ## 1. **Stay In Touch**
--The bank's marketing team needs to build a pipeline in order to be in constant touch with the potential customers.
--Marketing campaigns can be build incorporating newsletters, emails etc. to always stay in customers mind.
--Various schemes and offers can keep the existing customers loyal and lure potential customers to invest in the schemes.
+- The bank's marketing team needs to build a pipeline in order to be in constant touch with the potential customers.
+- Marketing campaigns can be build incorporating newsletters, emails etc. to always stay in customers mind.
+- Various schemes and offers can keep the existing customers loyal and lure potential customers to invest in the schemes.
 
  ## 2. **Build Trust**
--Appreciating the loyalty of customers and making them bank's brand ambassador is the easiest way to build trust amongst the potential customer.
--Incorporating non-private detail such as a customer's growth rate within the company, the journey of them benefitting from the bank's schemes and resources will not only build trust amongst the existing customers but will also lay a strong reliable foundation amongst the potential customers.
--These details can be incorporated in newsletters, Ad campaigns etc. to expand the reach.
+- Appreciating the loyalty of customers and making them bank's brand ambassador is the easiest way to build trust amongst the potential customer.
+- Incorporating non-private detail such as a customer's growth rate within the company, the journey of them benefitting from the bank's schemes and resources will not only build trust amongst the existing customers but will also lay a strong reliable foundation amongst the potential customers.
+- These details can be incorporated in newsletters, Ad campaigns etc. to expand the reach.
 
  ## 3. **Targeted Campaigns**
 
