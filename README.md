@@ -1,4 +1,7 @@
-# ![](Images/intro.jpg)
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/intro.jpg" />
+</p>
+
 
 # **CONTENTS**
 
@@ -77,7 +80,10 @@ XYZ bank ran a marketing campaign driven by phone calls, in order to increase th
 # **DATA ANALYSIS**
 ## **Process**                                                                                                                                       
 
-![Graphical user interface Description automatically generated](Images/steps.png)
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/steps.png" />
+</p>
+
 ## **Data Observation**
 
 1. Number of variables: 20
@@ -139,7 +145,10 @@ Analyzing all the AUC score, random forest is selected as the final model. Anoth
 
 Random forest is selected as final model with high AUC score of 0.9446.
 
-![](Images/auc.png) 
+<p align="center">
+  <img src="https://github.com/ashokkumarvaradarajan/ban5753-fall2022-team-ex-machina-miniproject-2/blob/main/Images/auc.png" />
+</p>
+
 
 # **K-MEANS**
 
